@@ -70,7 +70,7 @@ def update_image(file_path):
     #print("Extracted Text 3:\n", text)
 
     client = Groq(
-    api_key="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",
+    api_key="secret api key",
 )
 
     chat_completion = client.chat.completions.create(
